@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Distributeur de ticket</title>
+    <link rel="stylesheet" href="distributeur.css">
+
+</head>
+<body>
+
+<h1>Distributeur de tickets pour la promo 🎫 </h1>
+<h3>Ici c'est comme à la poissonerie 🐠 , il faut faire la queue !</h3>
+
+<form id="formulaire">
+<!--    //le label qui s'aplique au input donc on met for dans le label-->
+    <label for="input" >   Ton nom : </label>
+<!--    le type de l'input etre un tres ou autre 'date, email,password, etc...-->
+    <input id="input" type="text" required>
+    <button id="aide" type="submit">Je veux de l'aide 👏 </button>
+</form>
+
+
+
+
+<section>
+    <h3>  Liste des appenant.e.s !</h3>
+    <button id="suivant">Au suivant !</button>
+
+    <table id="table_la">
+        <thead>
+        <tr>
+            <th>Position</th>
+            <th>Nom</th>
+            <th>Passer mon tour</th>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+
+</section>
+
+
+</body>
+<script src="distributeur.js"></script>
+</html>
